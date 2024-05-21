@@ -3,6 +3,7 @@
     "/*": {
       "headers": {
         "Access-Control-Allow-Origin": "https://tu-destino-v3-0-wed.vercel.app"
+        
       }
     }
   }
