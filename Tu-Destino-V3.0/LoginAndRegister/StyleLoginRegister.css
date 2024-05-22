@@ -169,7 +169,7 @@
     border-radius: 150px 0 0 100px;
     z-index: 1000;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://res.cloudinary.com/dhtmy6izv/image/upload/Multimedia/den1krumk48nfabnwiir.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img_resources/a.jpg);
   }
   
   .container.active .toggle-container {
@@ -224,7 +224,7 @@
     transform: translateX(0);
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../pruebas/Lugares/multimedia/b.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img_resources/b.jpg);
   }
   
   .toggle-right .textoEstudiante {
