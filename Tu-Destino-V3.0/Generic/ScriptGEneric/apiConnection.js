@@ -1,10 +1,10 @@
 
 export const UrlBase = "https://tu-destino-business-logic.onrender.com/";
-export const UrlComent = "https://tu-destino-business-logic.onrender.com/comment";
-export const UrlPost = "https://tu-destino-business-logic.onrender.com/postDiscover";
-export const UrlUser= "https://tu-destino-business-logic.onrender.com/user";
-export const UrlPlace= "https://tu-destino-business-logic.onrender.com/place";
-export const UrlPublication= "https://tu-destino-business-logic.onrender.com/publication";
+export const UrlComent = "http://localhost:8080/comment";
+export const UrlPost = "http://localhost:8080/postDiscover";
+export const UrlUser= "http://localhost:8080/user";
+export const UrlPlace= "http://localhost:8080/place";
+export const UrlPublication= "http://localhost:8080/publication";
 
 
 

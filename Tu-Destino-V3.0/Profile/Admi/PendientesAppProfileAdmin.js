@@ -184,7 +184,7 @@ async function DenegarLugar(id_public){
             user_id: user_id.id,
             enum_estado:"RECHAZADO",
           }
-     
+          console.log(newPublib);
           await update(UrlPublication+`/${id_public}`,newPublib)
           inyeccionPublic()
         }
@@ -214,7 +214,7 @@ async function aprobarlugar(id_public) {
 
 
         await rellenar(publication) 
-  console.log("id"+ id_public + "nuevo estado", newPublib);
+        console.log("id"+ id_public + "nuevo estado", newPublib);
         await update(UrlPublication+`/${id_public}`,newPublib)
 
         await post(UrlPost , postear)
