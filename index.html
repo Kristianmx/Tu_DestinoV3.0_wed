@@ -32,7 +32,16 @@
 
 </head>
 <body>
-  <header class="header">
+  <div class="anuncio" id="anuncio"> <h2> Developing new improvements</h2>
+  <button class="btm btl" id="closeAnu">Cerrar </button> </div>
+  <script>
+    const anuncio = document.getElementById('anuncio');
+    const clo = document.getElementById('closeAnu');
+    clo.addEventListener('click',()=>{
+      anuncio.style.display="none"
+    })
+  </script>
+  <header class="header ">
     <div class="logo">
         <a href="index.html">
           <img src="Tu-Destino-V3.0/img_resources/main/logoMelo.png" alt="Logo de la marca">

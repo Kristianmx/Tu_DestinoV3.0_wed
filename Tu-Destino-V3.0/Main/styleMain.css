@@ -15,6 +15,36 @@ html{
 }
 /*https://responsively.app/download */
 
+
+.anuncio{
+  position:absolute;
+  z-index: 100000;
+  width: 40%;
+  height: 20%;
+  background-color: rgba(245, 245, 245, 0.76);
+  box-shadow: #000 2px 2px 2px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ border-radius: 2rem;
+  }
+  .anuncio h2{
+    font-size: 5rem; 
+    text-align: center;
+  }
+  .anuncio button{
+    font-weight: 20px;
+    color: #ffffff;
+    padding: 9px 25px;
+    background: #89c0ff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+.ocu{
+  display: none;
+}
 /*----------------Navegador---------*/
 .header{
   background-color: rgba(251,251,253,0.8);
